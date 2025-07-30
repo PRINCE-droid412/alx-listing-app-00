@@ -40,4 +40,10 @@ export interface PropertyProps {
   offers: OffersProps;
   image: string;
   discount: string;
+   hostName?: string;
+  hostEmail?: string;
+   description: string;
+  reviews: any[]; // Assuming reviews is an array of objects}
 }
+
+
